@@ -1,0 +1,174 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .navbar {
+    width: 5%;
+    background-color: #124c87;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #ededed;
+  }
+  
+  .navbar-top,
+  .navbar-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40%;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  .select-contact-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+  }
+  
+  .chat-svg {
+    border-radius: 3px;
+    background: #fff;
+    padding: 10px;
+    height: 5px;
+    width: 5px;
+    display: flex;
+  }
+  
+  .conversations {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+  }
+
+  .message-heading {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 72px;
+    background-color: #fff;
+    
+  }
+  
+  .message-heading h1 {
+    margin: 0;
+  }
+  
+  .message-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    overflow-y: auto;
+    background-color: #e5e5e5;
+  }
+  
+  .text-message {
+    margin-top: 10px;
+    padding: 20px;
+  }
+  
+  
+  .message-outgoing {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add margin to create space */
+    margin-right: 10px; /* Add margin to create space */
+  }
+  
+  .message-incoming {
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    background-color: #fff;
+    border-radius: 10px;
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 10px; /* Add margin to create space */
+    margin-left: 50px;
+  }
+  
+  .message-text {
+    padding: 10px;
+    margin-left: 10px; /* Add margin to create space */
+  }
+  
+  /* Add this for scrollable message container */
+  .message-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    margin-top: 10px; /* Add margin to create space */
+  }
+  
+  .contact-list-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-item {
+    padding: 2px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .contact-info {
+    padding: 8px;
+  }
+  
+  .sender-id {
+    font-weight: bold;
+  }
+  
+  .message-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px;
+    max-width: 100%;
+  }
+  
+  .incoming {
+    background-color: #e5e5e5;
+    text-align: left;
+  }
+  
+  .outgoing {
+    text-align: right;
+    color: black;
+  }
+  
+
+  .input-control {
+    border-radius: 5px;
+    padding: 10px
+  }
+
+  .profile-pic-wrapper-incoming {
+    margin-left: -20px;
+  }
+  
+  .message-content-wrapper {
+    flex-grow: 1;
+  }
+
+

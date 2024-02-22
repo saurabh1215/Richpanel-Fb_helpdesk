@@ -1,0 +1,68 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.navbar {
+  width: 5%;
+  background-color: #004E96;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #fff;
+  /* padding: 20px; */
+}
+
+.navbar-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40%;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 55%;
+}
+
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row; /* Change to row to have two columns */
+}
+
+.select-contact-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+.chat-svg {
+  border: 5px black;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+}
+
+/* Two-column layout for conversations */
+.conversations-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.conversations {
+  flex-grow: 1;
+}
+
+.user-details {
+  flex-basis: 25%; /* Adjust width as needed */
+  background-color: #f0f0f0;
+  padding: 20px;
+}
